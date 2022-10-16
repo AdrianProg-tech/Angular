@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl"><html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Nowa karta</title>
+	<meta name="description" content="Wyszukaj interesujące dla siebie informacje">
+	<meta name="keywords" content="wyszukaj">
+	<meta name="author" content="Adrian Borzęcki">
+	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="css/fontello.css" type="text/css"/>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+
+	<SCRIPT Language="JavaScript">
+		function szukaj(){
+		window.open("http://www.google.com/search?q="+wyszukiwarka.slowo.value);
+		 }
+		</SCRIPT>
+
+</head>
+<body> 
+
+	<div id="container">
+		
+		<form action="https://google.com/search" target="_blank">
+			<input  itemprop="query-input" placeholder="Wpisz URL" type="search" name="q" required/>
+			<input type="submit"/>
+		</form>
+
+	<div class="square">
+		<div class="yt">
+			<a href="http://youtube.com" target="_blank" class="sociallink"><i class="icon-youtube"></i></a>
+		</div>
+		<div class="fb">
+			<a href="http://facebook.com" target="_blank" class="tilelink"><i class="icon-facebook"></i></a>
+		</div>
+		<div class="gplus">
+			<a href="http://plus.google.com" target="_blank" class="tilelink"><i class="icon-gplus"></i></a>
+		</div>
+		<div class="tw">
+			<a href="http://twitter.com" target="_blank" class="tilelink"><i class="icon-twitter"></i></a>
+		</div>
+		<div style="clear:both"></div>
+	</div>
+		
+</body>
+</html>
